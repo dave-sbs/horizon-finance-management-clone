@@ -41,10 +41,13 @@ const Sidebar = ({ user }: SiderbarProps) => {
                 {item.label}
               </p>
             </Link>
-          )})
-        }
-
+          )
+          })}
+      
+          USER
       </nav>
+
+      FOOTER
     </section>
   )
 }
