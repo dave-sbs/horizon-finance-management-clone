@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import MobileNav from '@/components/MobileNav';
-import Sidebar from '@/components/Sidebar';
+import MobileNav from '@/components/ui/MobileNav';
+import Sidebar from '@/components/ui/Sidebar';
 
 export default function RootLayout({
   children,
@@ -26,7 +26,7 @@ export default function RootLayout({
                 <MobileNav user = {loggedIn}/>
             </div>
           </div>
-        {children}
+          {children}
         </div>
     </main>
   );
